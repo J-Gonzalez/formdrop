@@ -77,6 +77,9 @@ function ElementFormCtrl(ElementService, FormService, $routeParams, $location, $
   }
   
   $scope.addAttribute = function(){
+     let printBanana = function() {
+       console.log('bananas are good for you');
+     };
      form.attributes.push({"attribute":element.attributes[0],"value":""});
   }
   
